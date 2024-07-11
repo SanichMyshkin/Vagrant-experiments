@@ -4,8 +4,11 @@ start:
 stop:
 	vagrant halt
 
-restart:
+reload:
 	vagrant reload
-	
-ssh:
+
+con:
 	vagrant ssh
+
+prov:
+	vagrant provision
